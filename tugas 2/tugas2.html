@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 2</title>
+    <style>
+        body{
+            background-color:#E9EAEC;
+        }
+        .content{
+            width: 60%;
+            background-color: #ffffff;
+            margin: auto;
+            padding: 20px 40px;
+        }
+        a{
+            text-decoration: none;
+            color: blue;
+        }
+        .blueBox{
+            width: 60%;
+            background-color: #E2F4FD;
+            margin: auto;
+            padding: 20px 40px;
+            height: 20px;
+        }
+        .pic{
+            width: 20px;
+            height: 20px;
+            float: left;
+        }
+        .text{
+            line-height: 0px;
+            margin-left: 40px;
+        }
+        .desc{
+            width: 40%;
+            float: left;
+        }
+        .picShadow{
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+        button{
+            background-color:#3F70B7;
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+            color: white;
+            cursor: pointer;
+        }
+        .boxFeedback{
+            background-color: #E9EAEC;
+            width: 100%;
+            height: 170px;
+        }
+        .boxAnswer{
+            width: 98%;
+            background-color: white;
+            margin: auto;
+        }
+        .boxAnswer:hover{
+            background: rgb(102, 103, 104);
+            cursor: pointer;
+            border:1px ;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+      <h2>Open DevTools</h2>
+      <p>There are many ways to open DevTools, because different users want quick access to different parts of the DevTools UI.</p>
+      <ul>
+          <li>When you want to work with the DOM or CSS, right-click an element on the page and select <b>Inspect</b> to jump into the <b>Elements</b> panel. Or press Command+Option+C (Mac) or Control+Shift+C (Windows, Linux, Chrome OS).</li>
+          <br>
+          <li>When you want to see logged messages or run JavaScript, press Command+Option+J (Mac) or Control+Shift+J (Windows, Linux, Chrome OS) to jump straight into the <b>Console</b> panel</li>
+        </ul>
+        <p>See <a href="https://developers.google.com/web/tools/chrome-devtools/open?hl=i">Open Chrome DevTools</a> for more details and workflows.</p>
+    <br>
+    <h2>Get Started</h2>
+    <p>If you're a more experienced web developer, here are the recommended starting points for learning how DevTools can improve your productivity:</p>
+    <ul>
+        <li><a href="https://developers.google.com/web/tools/chrome-devtools/dom">View and Change the DOM</a></li><br>
+        <li><a href="https://developers.google.com/web/tools/chrome-devtools/css">View and Change a Page's Styles</a></li><br>
+        <li><a href="https://developers.google.com/web/tools/chrome-devtools/javascript">Debug JavaScript</a></li><br>
+        <li><a href="https://developers.google.com/web/tools/chrome-devtools/console">View Messages and Run JavaScript in the Console</a></li><br>
+        <li><a href="https://developers.google.com/web/tools/chrome-devtools/speed/get-started">Optimize Website Speed</a></li><br>
+        <li><a href="https://developers.google.com/web/tools/chrome-devtools/network">Inspect Network Activity</a></li>
+    </ul>
+    <br>
+    <h2>Discover DevTools</h2>
+    <p>The DevTools UI can be a little overwhelming... there are so many tabs! But, if you take some time to get familiar with each tab to understand what's possible, you may discover that DevTools can seriously boost your productivity.</p>
+    </div>
+    <div class="blueBox">
+        <div class="pic">
+            <img src="bintang.png" height="20px" width="20px">
+        </div>
+        <div class="text">
+            <p style="color: blue;"><b>Note:</b> In the DevTools docs, the top-level tabs are called panels.</p>
+        </div>
+    </div>
+    <div class="content">
+        <h3>Device Mode</h3>
+        <div class="desc">
+            <p>Simulate mobile devices.</p>
+            <ul>
+                <li><a href="https://developers.google.com/web/tools/chrome-devtools/device-mode">Device Mode</a></li><br>
+                <li><a href="https://developers.google.com/web/tools/chrome-devtools/device-mode/emulate-mobile-viewports">Test Responsive and Device-spesific Viewports</a></li><br>
+                <li><a href="https://developers.google.com/web/tools/chrome-devtools/device-mode/emulate-mobile-viewports">Emulate Sensors: Geolocation & Accelerometer</a></li>
+            </ul>
+        </div>
+            <img src="pic1.png" style="margin-left: 100px; margin-top: 20px;height: 240px; width: 330px;" class="picShadow">
+        <br><br><br>
+        <h3>Elements panel</h3>
+        <div class="desc">
+            <p>View and change the DOM and CSS.</p>
+            <ul>
+                <li><a href="https://developers.google.com/web/tools/chrome-devtools/dom">Get Started With Viewing And Changing The DOM</a></li><br>
+                <li><a href="https://developers.google.com/web/tools/chrome-devtools/inspect-styles">Get Started With Viewing And Changing CSS</a></li><br>
+                <li><a href="https://developers.google.com/web/tools/chrome-devtools/inspect-styles/edit-styles">Inspect and Tweak Your Pages</a></li><br>
+                <li><a href="https://developers.google.com/web/tools/chrome-devtools/inspect-styles/edit-styles">Edit Styles</a></li><br>
+                <li><a href="https://developers.google.com/web/tools/chrome-devtools/inspect-styles/edit-dom">Edit the DOM</a></li><br>
+                <li><a href="https://developers.google.com/web/tools/chrome-devtools/inspect-styles/animations">Inspect Animations</a></li><br>
+                <li><a href="https://developers.google.com/web/tools/chrome-devtools/coverage">Find Unused CSS</a></li>
+            </ul>
+        </div>
+            <img src="pic2.png" style="margin-left: 100px; margin-top: 20px; height: 240px; width: 330px;" class="picShadow"> 
+        <br><br><br><br><br><br>
+        <h3>Console panel</h3>
+        <div class="desc">
+            <p>View messages and run JavaScript from the Console.</p>
+            <ul>
+                <li><a href="https://developers.google.com/web/tools/chrome-devtools/console">Get Started With The Console</a></li><br>
+                <li><a href="https://developers.google.com/web/tools/chrome-devtools/console">Using the Console</a></li><br>
+                <li><a href="https://developers.google.com/web/tools/chrome-devtools/console/utilities">Interact from Command Line</a></li><br>
+                <li><a href="https://developers.google.com/web/tools/chrome-devtools/console/api">Console API Reference</a></li>
+            </ul>
+        </div>
+            <img src="pic3.png" style="margin-left: 100px; margin-top: 20px; height: 240px; width: 330px;" class="picShadow">
+        <br><br><br><br><br>
+        <h3>Sources panel</h3>
+        <div class="desc">
+            <p>Debug JavaScript, persist changes made in DevTools across page reloads, save and run snippets of JavaScript, and save changes that you make in DevTools to disk.</p>
+            <ul>
+                <li><a href="https://developers.google.com/web/tools/chrome-devtools/javascript">Get Started With Debugging JavaScript</a></li><br>
+                <li><a href="https://developers.google.com/web/tools/chrome-devtools/javascript/breakpoints">Pause Your Code With Breakpoints</a></li><br>
+                <li><a href="https://developers.google.com/web/tools/setup/setup-workflow">Save Changes to Disk with Workspaces</a></li><br>
+                <li><a href="https://developers.google.com/web/tools/setup/setup-workflow">Run Snippets Of Code From Any Page</a></li><br>
+                <li><a href="https://developers.google.com/web/tools/setup/setup-workflow">JavaScript Debugging Reference</a></li><br>
+                <li><a href="https://developers.google.com/web/updates/2018/01/devtools#overrides">Persist Changes Across Page Reloads with Local Overrides</a></li><br>
+                <li><a href="https://developers.google.com/web/tools/chrome-devtools/coverage">Find Unused JavaScript</a></li>
+            </ul>
+        </div>
+        <img src="pic4.png" style="margin-left: 100px; margin-top: 20px; height: 260px; width: 330px;" class="picShadow">
+    <br><br><br><br><br><br><br><br><br><br>
+    <h3>Network panel</h3>
+        <div class="desc">
+            <p>View and debug network activity.</p>
+            <ul>
+                <li><a href="https://developers.google.com/web/tools/chrome-devtools/network">Get Started</a></li><br>
+                <li><a href="https://developers.google.com/web/tools/chrome-devtools/network/issues">Network Issues Guide</a></li><br>
+                <li><a href="https://developers.google.com/web/tools/chrome-devtools/network/reference">Network Panel Reference</a></li>
+            </ul>
+        </div>
+        <img src="pic5.png" style="margin-left: 100px; margin-top: 20px; height: 240px; width: 330px;" class="picShadow">
+        <br><br><br><br>
+        <h3>Performance panel</h3>
+    </div>
+    <div class="blueBox">
+        <div class="pic">
+            <img src="bintang.png" height="20px" width="20px">
+        </div>
+        <div class="text">
+            <p style="color: blue;"><b>Note:</b> In Chrome 58 the Timeline panel was renamed to the Performance panel.</p>
+        </div>
+    </div>
+    <div class="content">
+        <div class="desc">
+            <p>Find ways to improve load and runtime performance.</p>
+            <ul>
+                <li><a href="https://developers.google.com/web/tools/chrome-devtools/speed/get-started">Optimize Website Speed</a></li><br>
+                <li><a href="https://developers.google.com/web/tools/chrome-devtools/evaluate-performance">Get Started With Analyzing Runtime Performance</a></li><br>
+                <li><a href="https://developers.google.com/web/tools/chrome-devtools/evaluate-performance/reference">Performance Analysis Reference</a></li><br>
+                <li><a href="https://developers.google.com/web/tools/chrome-devtools/rendering-tools">Analyze runtime performance</a></li><br>
+                <li><a href="https://developers.google.com/web/tools/chrome-devtools/rendering-tools/forced-synchronous-layouts">Diagnose Forced Synchronous Layouts</a></li>
+            </ul>
+        </div>
+        <img src="pic6.png" style="margin-left: 100px; margin-top: 30px; height: 240px; width: 330px;" class="picShadow">
+        <br><br><br><br>
+        <h3>Memory Panel</h3>
+    </div>
+    <div class="blueBox">
+        <div class="pic">
+            <img src="bintang.png" height="20px" width="20px">
+        </div>
+        <div class="text">
+            <p style="color: blue;"><b>Note:</b> In Chrome 58 the Profiles panel was renamed to the Memory panel.</p>
+        </div>
+    </div>
+    <div class="content">
+        <div class="desc">
+            <p>Profile memory usage and track down leaks.</p>
+            <ul>
+                <li><a href="https://developers.google.com/web/tools/chrome-devtools/memory-problems">Fix Memory Problems</a></li><br>
+                <li><a href="https://developers.google.com/web/tools/chrome-devtools/rendering-tools/js-execution">JavaScript CPU Profiler</a></li>
+            </ul>
+        </div>
+        <img src="pic7.png" style="margin-left: 100px; margin-top: 30px; height: 240px; width: 330px;" class="picShadow">
+        <br><br><br><br>
+        <h3>Application Panel</h3>
+        <div class="desc">
+            <p>Inspect all resources that are loaded, including IndexedDB or Web SQL databases, local and session storage, cookies, Application Cache, images, fonts, and stylesheets.</p>
+            <ul>
+                <li><a href="https://developers.google.com/web/tools/chrome-devtools/progressive-web-apps">Debug Progressive Web Apps</a></li><br>
+                <li><a href="https://developers.google.com/web/tools/chrome-devtools/manage-data/local-storage">Inspect and Manage Storage, Databases, and Caches</a></li><br>
+                <li><a href="https://developers.google.com/web/tools/chrome-devtools/storage/cookies">Inspect and Delete Cookies</a></li><br>
+                <li><a href="https://developers.google.com/web/tools/chrome-devtools/resources">Inspect Resources</a></li>
+            </ul>
+        </div>
+        <img src="pic8.png" style="margin-left: 100px; margin-top: 30px; height: 180px; width: 330px;" class="picShadow">
+        <br><br><br><br>
+        <h3>Security Panel</h3>
+        <div class="desc">
+            <p>Debug mixed content issues, certificate problems, and more.</p>
+            <ul>
+                <li><a href="https://developers.google.com/web/tools/chrome-devtools/security?hl=i">Understand Security Issues</a></li><br>
+            </ul>
+        </div>
+        <img src="pic9.png" style="margin-left: 100px; margin-top: 30px; height: 240px; width: 330px;" class="picShadow">
+        <br><br><br><br>
+        <h2>Community</h2>
+        <p>The best place to file feature requests for Chrome DevTools is the mailing list. The team needs to understand use cases, gauge community interest, and discuss feasibility before implementing any new features.</p>
+        <button onclick="window.location.href ='https://groups.google.com/forum/#!forum/google-chrome-developer-tools';" style="width: 120px;"><b>Mailing List</b></button>
+        <p>File bug reports in Crbug, which is the engineering team's bug tracker.</p>
+        <button onclick="window.location.href ='https://bugs.chromium.org/p/chromium/issues/list';" style="width: 80px;"><b>Crbug</b></button>
+        <p>If you want to alert us to a bug or feature request but don't have much time, you're welcome to send a tweet to @ChromeDevTools. We reply and send announcements from the account regularly.</p>
+        <button onclick="window.location.href ='https://twitter.com/ChromeDevTools';" style="width: 100px;"><b>Twitter</b></button>
+        <p>For help with using DevTools, Stack Overflow is the best channel.</p>
+        <button onclick="window.location.href ='https://stackoverflow.com/users/login?ssrc=anon_ask&returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2fask%3ftags%3dgoogle-chrome-devtools';" style="width: 150px;"><b>Stack Overflow</b></button>
+        <p>To file bugs or feature requests on the DevTools docs, open a GitHub issue on the Web Fundamentals repository.</p>
+        <button onclick="window.location.href ='https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fgoogle%2Fwebfundamentals%2Fissues%2Fnew';" style="width: 120px;"><b>Docs Issues</b></button>
+        <p>DevTools also has a Slack channel, but the team doesn't monitor it consistently.</p>
+        <button onclick="window.location.href = 'https://chromiumdev.slack.com/?redir=%2Fmessages%2Fdevtools%2F';" style="width: 120px;"><b>Slack</b></button>
+        <br><br>
+        <h2>Feedback</h2>
+        <div class="boxFeedback" style="padding: 5px 2px;">
+            <p style="margin-left: 5px;"><b>Was this page helpful?</b></p>
+            <div class="boxAnswer" style="padding: 1px;">
+                <p style="margin-left: 20px;">Yes</p>
+            </div>
+            <div class="boxAnswer" style="padding: 1px; margin-top: 5px;">
+                <p style="margin-left: 20px;">No</p>
+            </div>
+        </div>
+        <br>
+    </div>
+    
+</body>
+</html>
