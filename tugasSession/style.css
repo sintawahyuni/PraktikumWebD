@@ -1,0 +1,142 @@
+body{
+    width: 100%;
+    margin:0;
+    background-color: #E9EAEC;
+}
+.menu{
+    width: 100%;
+    height: 100px;
+    background-color:#34495e;
+    position: fixed;
+}
+.logo{
+    height: 80px ;
+    width: 70px;
+    margin-left: 50px;
+    margin-top: 10px;
+    position: fixed;
+    top: 0px;
+}
+.tag{
+    height: fit-content;
+    width: fit-content;
+    float: left;
+    margin-left: 140px;
+    margin-top: 10px;
+    color: white;
+}
+.tableMenu{
+    color: white;
+    float: right;
+    margin-right: 150px;
+    margin-top: 35px;
+    font-size: medium;
+}
+a{
+   text-decoration: none;
+   color: white;
+}
+a:hover, a:active{
+  color:yellow;
+  text-decoration: underline;
+}
+.pic{
+   width: 100%;
+   height: 600px;
+   margin-top: 100px;
+}
+.boxPic{
+   width: 100%;
+   height: 535px;
+}
+.boxAbout{
+   width: 100%;
+   height: 400px;
+   margin-top: 250px;
+}
+.boxVisi{
+   height: 350px;
+   width: 400px;
+   float: left;
+   margin-left: 200px;
+}
+.boxMisi{
+   height: 350px;
+   width: 400px;
+   float: right;
+   margin-right: 200px;
+}
+.boxProfil{
+   height: 400px;
+   width: 100%;
+   /* background-color: lawngreen; */
+   margin-top: 70px;
+}
+.boxFotoProfil{
+   width: 100%;
+   height: 90px;
+   margin-top: 70px;
+}
+.boxEachF{
+   width: 90px;
+   height: 90px;
+   border-radius: 100px;
+}
+.boxDes{
+   width: 200px;
+   height: 180px;
+   margin-top: 20px;
+}
+.boxKontak{
+   height: 250px;
+   width: 100%;
+}
+.boxInKontak{
+   height: 200px;
+   width: fit-content;
+}
+.icon{
+   height: 30px;
+   width: 30px;
+}
+.copy{
+   height: 50px;
+   width: 100%;
+   background-color:#34495e;
+   text-align: center;
+   line-height: 3;
+   bottom: 0px;
+}
+.pp{
+    height: 130px;
+    width: 130px;
+    margin-top: 150px;
+    border-radius: 100px;
+    position: relative;
+    left: 45%;
+}
+.formLogin{
+    margin-top: 200px;
+    width: 400px;
+    height: 200px;
+    background-color: #E9EAEC;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+input{
+    border-radius: 5px;
+    width: 400px;
+    height: 30px;
+}
+button{
+    background-color:#34495e;
+    height: 40px;
+    width: 400px;
+    border-style: none;
+    cursor: pointer;
+    color: white;
+}
+.forml{
+    margin:auto;
+}
