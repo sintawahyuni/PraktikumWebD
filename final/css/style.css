@@ -1,0 +1,93 @@
+body{
+    background-color: #ecf0f1;
+}
+.logoLogin{
+    height: 120px;
+    width: 110px;
+    margin-left: 45%;
+}
+.login{
+    margin-left: 37%;
+}
+body,html{
+    margin: 0;
+    height: 100%;
+}
+.skip{
+    margin:0;
+}
+.menu{
+    width: 100%;
+    height: 100px;
+    background-color:#34495e;
+    position: fixed;
+    top: 0;
+}
+.nav{
+    height: 100px;
+    margin-top: 20px;
+}
+.color{
+    background-color: brown;
+}
+.link{
+    color: white;
+}
+.boxAtas{
+    height: 100px
+}
+.logo{
+    height: 80px ;
+    width: 70px;
+    float: left;
+    margin-top: 10px;
+    position: fixed;
+    top: 0px;
+}
+.tag{
+    height: fit-content;
+    width: fit-content;
+    float: left;
+    margin-top: 30px;
+    color: white;
+}
+.tableMenu{
+    color: white;
+    float: right;
+    margin-right: 150px;
+    margin-top: 35px;
+    font-size: medium;
+}
+.kampus{
+    height: 650px;
+    width: 100%;
+}
+.text{
+    margin-top: 40px;
+    text-align: center;
+}
+ .content {
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 100%; /* Full width */
+    padding: 10px; /* Some padding */
+    padding-bottom: 0;
+  }
+.box-form{
+    height: 600px;
+    width: 600px;
+    background-color: turquoise;
+    margin-top: 20px;
+}
+.boxRegister{
+    height: 700px;
+    width: 700px;
+    background-color: violet;
+    margin-top: 30px;
+}
+.align{
+    text-align: center;
+}
